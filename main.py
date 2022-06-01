@@ -11,7 +11,7 @@ high_score = 0
 
 #set up screen
 wn = turtle.Screen()
-wn.title("Paambu game")
+wn.title("Paambu Vilayitu")
 wn.bgcolor('white')
 wn.setup(width=600, height=600)
 wn.tracer(0)
@@ -74,10 +74,10 @@ def move():
 
 #keyboard bindings
 wn.listen()
-wn.onkeypress(go_up, "w")
-wn.onkeypress(go_down, "s")
-wn.onkeypress(go_left, "a")
-wn.onkeypress(go_right, "d")
+wn.onkeypress(go_up, "r")
+wn.onkeypress(go_down, "v")
+wn.onkeypress(go_left, "f")
+wn.onkeypress(go_right, "g")
 
 #MainLoop
 while True:
