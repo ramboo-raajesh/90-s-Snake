@@ -142,6 +142,7 @@ while True:
 
     move()
 
+
     #check for collision with body
     for segment in segments:
         if segment.distance(head)<20:
