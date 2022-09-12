@@ -15,7 +15,6 @@ wn.title("Paambu Vilayitu")
 wn.bgcolor('white')
 wn.setup(width=600, height=600)
 wn.tracer(0)
-
 #snake head
 head = turtle.Turtle()
 head.speed(0)
